@@ -1,0 +1,5 @@
+notaaluno=((7,8,6), (9,5,7), (8,8,10))
+print(f"notas segundo aluno: {notaaluno[1]}")
+notaaluno3=sum(notaaluno[2])
+media=notaaluno3/len(notaaluno[2])
+print(f"Media das notas do 3 aluno: {media}")

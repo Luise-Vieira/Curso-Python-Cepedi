@@ -1,0 +1,7 @@
+nomes=set()
+nomes.add("lucas")
+nomes.add("Maria")
+nomes.add("Luana")
+print(nomes)
+nomes.remove("Luana")
+print(nomes)
