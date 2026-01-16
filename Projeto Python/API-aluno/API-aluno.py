@@ -50,8 +50,8 @@ class MinhaAPI(BaseHTTPRequestHandler):
                 self.send_header("Content-Type","application/json")
                 self.end_headers()
 
-                erro= {"Erro:" "ALuno nao encontrado"}
-                self.wfile.write(json.dumps(erro).encode("urf-8"))
+                erro= {"Erro": "ALuno nao encontrado"}
+                self.wfile.write(json.dumps(erro).encode("utf-8"))
         else:
             self.send_response(404)
             self.end_headers()
